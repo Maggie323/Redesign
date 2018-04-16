@@ -29,13 +29,40 @@ body{
 /*Section*/
 section {
 	background-color: white;
+	padding: 0 3rem;
 }
 section h3,h4,p {
 	text-align: justify;
+}
+.form-center {
 	text-align: center;
 }
-
 /*Footer*/
 footer p {
 	text-align: center;
 }
+/*********** Home Page ***********/
+.youtube-video {
+	display: block;
+	margin: 0 auto;
+}
+.contactus-center {
+	text-align: center;
+}
+/**********Energy Industry Page***********/
+.energy-center-text {
+	text-align: center;
+}
+/**********Contact Us Page**********/
+.center-text {
+	text-align: center;
+}
+.google-maps{
+	width: 100%;
+}
+.canan-balaban-image {
+	/*TODO: Adjust image*/
+	height: 40%;
+	width: 70%;
+}
+
