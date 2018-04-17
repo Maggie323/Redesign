@@ -2,11 +2,10 @@
 	box-sizing: border-box;
 	margin: 1%;
 }
-img {
-	width: 50%;
+.logos{
 	height: 50%;
-	border: 10em;
-	border-radius: 15%;
+	width: 40%;
+	border: 40%;
 }
 ul {
 	list-style-type: none;
@@ -25,6 +24,11 @@ ul {
 }
 body{
 	background-color: aliceblue;
+}
+/*Header*/
+.fesc-logo {
+	max-height: 100%;
+	width: auto;
 }
 /*Section*/
 section {
@@ -52,6 +56,10 @@ footer p {
 /**********Energy Industry Page***********/
 .energy-center-text {
 	text-align: center;
+}
+.energy-image{
+	height: 60%;
+	width: 60%;
 }
 /**********Contact Us Page**********/
 .center-text {
