@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1%; }
+
+.logos {
+  height: 50%;
+  width: 40%; }
+
+ul {
+  list-style-type: none; }
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch; }
+
+.flex-item {
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto; }
+
+body {
+  background-color: aliceblue; }
+
+/*Header*/
+.fesc-logo {
+  max-height: 100%;
+  width: auto; }
+
+/*Section*/
+section {
+  background-color: white;
+  padding: 0 3rem; }
+
+section h3, h4, p {
+  text-align: justify; }
+
+.form-center {
+  text-align: center; }
+
+/*Footer*/
+footer p {
+  text-align: center; }
+
+/*********** Home Page ***********/
+.youtube-video {
+  display: block;
+  margin: 0 auto; }
+
+.contactus-center {
+  text-align: center; }
+
+/**********Energy Industry Page***********/
+.energy-center-text {
+  text-align: center; }
+
+.energy-image {
+  height: 60%;
+  width: 60%; }
+
+/**********Contact Us Page**********/
+.center-text {
+  text-align: center; }
+
+.google-maps {
+  width: 100%; }
+
+.canan-balaban-image {
+  /*TODO: Adjust image*/
+  height: 40%;
+  width: 70%; }
+
+/*# sourceMappingURL=new-fesc-styles.css.map */
