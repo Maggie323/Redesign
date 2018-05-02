@@ -32,27 +32,47 @@ ul {
       flex-basis: auto; }
 
 body {
-  background-color: aliceblue; }
+  background-color: #cc9900; }
 
 /*Header*/
-.fesc-logo {
-  max-height: 100%;
-  width: auto; }
+.navigation-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 5px solid #006622;
+  color: #006622; }
+
+header a {
+  font-family: 'Anton', sans-serif;
+  background-color: #cc9900;
+  color: #006622; }
 
 /*Section*/
 section {
-  background-color: white;
   padding: 0 3rem; }
 
 section h3, h4, p {
   text-align: justify; }
 
-.form-center {
-  text-align: center; }
+section form fieldset {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+  color: #006622; }
 
 /*Footer*/
 footer p {
-  text-align: center; }
+  text-align: center;
+  color: #006622; }
 
 /*********** Home Page ***********/
 .youtube-video {
@@ -74,12 +94,36 @@ footer p {
 .center-text {
   text-align: center; }
 
-.google-maps {
-  width: 100%; }
+.contacts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5% 0%; }
 
-.canan-balaban-image {
-  /*TODO: Adjust image*/
-  height: 40%;
-  width: 70%; }
+section div input {
+  width: 60%;
+  margin: 8px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #006622;
+  color: white; }
+
+.contacts-item {
+  width: 60%;
+  margin: 8px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #006622;
+  color: white; }
 
 /*# sourceMappingURL=new-fesc-styles.css.map */

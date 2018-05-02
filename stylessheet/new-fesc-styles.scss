@@ -1,12 +1,16 @@
 //Define my VARIABLES
 
-//Add MIXINS
-
+// MIXINS (this is for the Contact Us Page)
+@mixin contact-us {
+	width: 60%;
+	margin: 8px 8px;
+	box-sizing: border-box;
+	background-color: #006622;
+	color: white;
+}
 * {
 	box-sizing: border-box;
 	margin: 1%;
-	//test
-	color: red;
 }
 .logos {
 	height: 50%;
@@ -29,13 +33,21 @@ body{
 	background-color: #cc9900;
 }
 /*Header*/
+.navigation-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: 5px solid #006622;
+	color: #006622;
+}
 header a {
 	font-family: 'Anton', sans-serif;
 	background-color: #cc9900;
+	color: #006622;
 }
 /*Section*/
 section {
-	background-color: white;
 	padding: 0 3rem;
 }
 section h3,h4,p {
@@ -47,10 +59,12 @@ section h3,h4,p {
 section form fieldset {
 	font-family: 'Saira Extra Condensed', sans-serif;
 	text-align: center;
+	color: #006622;
 }
 /*Footer*/
 footer p {
 	text-align: center;
+	color: #006622;
 }
 /*********** Home Page ***********/
 .youtube-video {
@@ -72,12 +86,16 @@ footer p {
 .center-text {
 	text-align: center;
 }
-.google-maps{
-	width: 100%;
+.contacts-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 5% 0%;
 }
-.canan-balaban-image {
-	/*TODO: Adjust image*/
-	height: 40%;
-	width: 70%;
+section div input {
+	@include contact-us;
 }
-
+.contacts-item{
+	@include contact-us;
+}
