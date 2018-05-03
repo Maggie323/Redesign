@@ -3,10 +3,6 @@
           box-sizing: border-box;
   margin: 1%; }
 
-.logos {
-  height: 50%;
-  width: 40%; }
-
 ul {
   list-style-type: none; }
 
@@ -60,16 +56,15 @@ header a {
 /*Section*/
 section {
   padding: 0 3rem; }
-
-section h3, h4, p {
-  text-align: justify; }
+  section h3, section h4, section p {
+    text-align: justify; }
 
 section form fieldset {
   font-family: 'Saira Extra Condensed', sans-serif;
   text-align: center;
   color: #006622; }
 
-/*Footer*/
+/********Footer**********/
 footer p {
   text-align: center;
   color: #006622; }
@@ -86,9 +81,17 @@ footer p {
 .energy-center-text {
   text-align: center; }
 
-.energy-image {
-  height: 60%;
-  width: 60%; }
+.flex-item {
+  width: 60%;
+  margin: 8px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #006622;
+  color: white;
+  border-radius: 20px;
+  width: 50%; }
+  .flex-item img:hover {
+    opacity: 0.3; }
 
 /**********Contact Us Page**********/
 .center-text {
@@ -116,7 +119,8 @@ section div input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #006622;
-  color: white; }
+  color: white;
+  border-radius: 20px; }
 
 .contacts-item {
   width: 60%;
@@ -124,6 +128,7 @@ section div input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #006622;
-  color: white; }
+  color: white;
+  border-radius: 20px; }
 
 /*# sourceMappingURL=new-fesc-styles.css.map */
