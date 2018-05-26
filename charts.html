@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Contact Us</title>
+		<title>Home Page</title>
 		<meta charset="utf-8">
 <!--		facebook media Meta tags (Card) -->
 		<meta property="og:title" content="FESC Redesign">
@@ -17,9 +17,13 @@
 		<meta name="twitter:image" content="images/fesc-logo">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="og:type" content="website">
+<!--	Google Charts, Quickstart: Load the AJAX API-->   
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript"></script>
+	<script src="js/script.js"></script>
 <!--		Bootstrap CDN-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+		
 <!--		Twitter JS Script: 		
 				https://dev.twitter.com/web/javascript/loading-->
 		<script>window.twttr = (function(d, s, id) {
@@ -35,7 +39,6 @@
 			t.ready = function(f) {
 				t._e.push(f);
 			};
-
 			return t;
 			}(document, "script", "twitter-wjs"));
 		</script>
@@ -44,6 +47,7 @@
 <!--		Main Stylessheet-->
 		<link rel="stylesheet" type="text/css" href="stylessheet/new-fesc-styles.css">
 	</head>
+	
 	<body>
 		<header>
 <!--			FESC logo-->
@@ -73,39 +77,18 @@
 				</div>
 			</div>
 		</header>
+<!--	Google Charts, Quickstart: Div that will hold the pie chart-->
+    <div id="chart_div"></div>		
+	
 		
-		<section>
-			<div class="contacts-container">
-				<div class="contacts-item">
-					<h3 class="center-text">Contact Us</h3>
-					<p class="center-text">Telephone: 352-294-2027</p>
-					<p class="center-text">272 Grinter Hall</p>
-					<p class="center-text">P.O. Box 115500</p>
-					<p class="center-text">Gainesville, FL 32611-5500</p>
-				</div>
-				<form target="_self" method="get"> 
-					<fieldset>
-						<legend>FESC Florida Energy Connections Newsletter</legend>
-						<label>First Name</label>
-						<input type="text" name="first-name" placeholder="John" required><br>
-						<label>Last Name</label>
-						<input type="text" name="last-name" placeholder="Doe"> <br>
-						<label>Email</label>
-						<input type="email" name="user-email" placeholder="example@email.com" required> <br>
-						<label>Telephone:</label>
-						<input type="number" name="phone" placeholder="206-123-4444"><br>
-						<textarea name="comment" rows="4" cols="50" maxlength="150" placeholder="Leave Us Feedback, we'd love to hear from you!"></textarea><br>
-						<input type="submit" value="Submit">
-					</fieldset>
-				</form>		
-			</div>
-		</section>
 		
+	
+	
 		<footer>
-<!--	Twitter Share Buton: https://dev.twitter.com/web/tweet-button
+	<!--Twitter Share Buton: https://dev.twitter.com/web/tweet-button
 			URL Encode from: https://www.w3schools.com/tags/ref_urlencode.asp -->
 			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=https://maggie323.github.io/Redesign/">Tweet</a>
-<!--	Facebook Share Button
+	<!--	Facebook Share Button
 			https://developers.facebook.com/docs/plugins/share-button-->
 			<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fmaggie323.github.io%2FRedesign%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden"></iframe>
 			<p>Copyright © 2008-2015 Florida Energy Systems Consortium. </p>
