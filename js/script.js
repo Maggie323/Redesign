@@ -85,9 +85,9 @@ function drawChart1() {
 
 // Set chart options
 	var options = {
+					colors: ['#006622'],
           chart: {
-            title: 'Annual Renewable Energy Production in Florida',
-          },
+            title: 'Annual Renewable Energy Production in Florida',},
           width: 800,
           height: 500,
           series: {
@@ -170,9 +170,11 @@ function drawChart2() {
 	
 	// Set chart options
         var options = {
+					animation:{duration: 1000, easing: 'linear'},
           title: 'Electrical Total Consumption',
           hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
-          vAxis: {minValue: 0}
+          vAxis: {minValue: 0},
+					colors: ['#006622']
         };
 
 	// Instantiate and draw our chart, passing in some options.
